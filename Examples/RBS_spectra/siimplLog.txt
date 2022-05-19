@@ -1,0 +1,73 @@
+SIIMPL, simulation of ion implantation, (c) M.S. Janson (2003)
+Log file:
+
+Z2  6  14
+M2  12.000000  28.000000  (amu)
+
+nAtom 9.731724e+22 (cm^-3)
+
+Number of sub cells (SC) = 24
+Totat number of atoms in all SC = 326
+Avarege number of atoms per SC = 13.583333
+
+Z1 2
+M1 4.000000 (amu)
+E0 2000.000000 (keV)
+dose 1.000000e+00 (cm^-2)
+
+Simulated pseudo ions        : 10000
+  (including rare event ions): 10000
+
+% Primary ion ESP data:
+Efermi 25.000000 (keV)
+
+esp.A1 1.700000 (eV/(10^15cm^-2))
+esp.A2 0.602000 	(= esp.p)
+esp.p2 0.000000
+esp.A3 50.500000 (keVeV/(10^15cm^-2))
+esp.A4 2.680000 (keV^-1)
+esp.A5 2.100000 (keV)
+
+esp.fl 1.000000
+esp.s  0.400000
+
+IAPfunction: 0
+pmax = 2.000000 (Å)
+Estop = 2.000000e-03 (keV)
+vibalg: 1
+
+Implanted direction:
+0.000000e+00	0.000000e+00	1.000000e+00
+
+Surface Normal:
+-1.391731e-01	0.000000e+00	-9.902681e-01
+
+Implanted rectangle area (Å):
+0.000000e+00	0.000000e+00	0.000000e+00
+9.575820e+02	-2.548040e+02	-1.345794e+02
+1.209906e+03	7.121888e+02	-1.700412e+02
+2.523242e+02	9.669927e+02	-3.546186e+01
+
+surfaceEnergy = 0.005000 (keV)
+
+Damage model: Kinchin-Pease
+
+Random surface layer:0.000000 Å
+
+rndscatfac: 2.000000
+Total number of collisions: 49799376
+Total number of collisions for primary ion: 49799376
+total number of nofound: 1
+
+Rp 4000.747588
+Rpath 4040.247096
+
+<dRv0> (ion) =  0.811305
+Random dRv0 =  0.817712
+
+Backscattered ions: 0.000000e+00 (cm^-2)
+Transmitted ions: 1.000000e+00 (cm^-2)
+Sputtered target atoms: 0.000000e+00 (cm^-2)
+
+Energy test: Eout/Ein - 1 = 3.542423e-11
+

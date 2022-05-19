@@ -1,0 +1,57 @@
+% File Name: UC_6HSiC.txt
+
+% --- Unit cell base: 
+UCbase 
+3.0730	0	0;           	%  = a1         
+-1.5365	2.6613	0 ;          	%  = a2
+0	0        15.079; 	%  = a3
+
+
+% --- Unit Cell atoms
+	
+% atom	1		2		3...
+% ------------------------------
+Z2	6		14;
+M2	12.000000	28.000000;
+
+
+% Hexagonal positions in (0001) plane
+% A=[0.6667    0.3333 ];
+% B=[0	   0];
+% C=[0.3333    0.6667];
+%
+% 6H-SiC = A B C A C B
+
+UCatoms
+2    0.6667    0.3333         0
+1         0         0    0.0417
+2         0         0    0.1667
+1    0.3333    0.6667    0.2083
+2    0.3333    0.6667    0.3333
+1    0.6667    0.3333    0.3750
+2    0.6667    0.3333    0.5000
+1    0.3333    0.6667    0.5417
+2    0.3333    0.6667    0.6667
+1         0         0    0.7083
+2         0         0    0.8333
+1    0.6667    0.3333    0.8750
+end
+
+% With these definitions, and assuming that the hexagonal c-axis 
+% is parallel to the Si-side surface normal:
+% ex || [100] UCbase 	(eq. <11-20>hex) 
+% ey || [120] UCbase   	(eq. <10-10>hex)
+% ez || [001] UCbase	(eq. [000-1]hex)
+
+% Amorphous atomic density
+natomamorph 8.4e22; % (cm-3)
+ 
+% --- Define surface normal 8 deg off c-axis 
+% towards a <11-20> direction (for example || ex)
+surfnormrotyrotz 188 0; % (rot, tilt) (degrees) 
+
+
+% atom 	1		2
+% ----------------------------------------
+Edispl 	20e-3		35e-3 	% (keV)
+vibu1	0.057		0.051	% (Å)

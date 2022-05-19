@@ -1,0 +1,25 @@
+% File Name: fcc.txt
+
+% --- Unit cell base: 
+UCbase 
+X	0	0;      %  = a1         
+0	X	0;      %  = a2
+0	0       X; 	%  = a3
+
+
+% --- Unit Cell atoms
+	
+% atom	1	
+% ------------
+Z2	X;
+M2	X;
+
+
+
+UCatoms
+1	0       0	0
+1	0       0.5	0.5
+1	0.5	0	0.5
+1	0.5	0.5	0
+end
+

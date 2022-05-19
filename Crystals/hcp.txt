@@ -1,0 +1,23 @@
+% File Name: hcp.txt
+
+% --- Unit cell base: 
+UCbase 
+X	0	0;           	%  = a1         
+-0.5X	0.8660X	0;          	%  = a2
+0	0       Y; 		%  = a3
+
+
+% --- Unit Cell atoms
+	
+% atom	1	
+% ------------------------------
+Z2	X;
+M2	X;
+
+
+
+UCatoms
+1    0		0         0
+1    0.6667    0.3333 	  0.5
+end
+

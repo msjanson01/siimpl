@@ -1,0 +1,2 @@
+readsimfile d:\siimpl\examples\RBS\2MeV_He_rbs.m
+impdirrotyrotz 4.000000e+000 0.000000e+000;
